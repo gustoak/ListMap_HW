@@ -64,11 +64,11 @@ public class Methods {
                     numberOfFilms.replace("Free", receivesValue, receivesValue + counter);
                 }
             }
-            if(!numberOfFilms.containsKey("Para maiores de 12 anos")){
-                numberOfFilms.put("Para maiores de 12 anos", counter);
+            if(!numberOfFilms.containsKey("For over 12 years old")){
+                numberOfFilms.put("For over 12 years old", counter);
             } else {
-                Integer nowValue = numberOfFilms.get("Para maiores de 12 anos");
-                numberOfFilms.replace("Para maiores de 12 anos", nowValue, nowValue + counter);
+                Integer nowValue = numberOfFilms.get("For over 12 years old");
+                numberOfFilms.replace("For over 12 years old", nowValue, nowValue + counter);
             }
         }
         System.out.println(numberOfFilms);
